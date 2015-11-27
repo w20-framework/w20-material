@@ -16,7 +16,7 @@
   "requireConfig": {
     "map": {
       "*": {
-        "{css-framework}": "{w20-ui-material}"
+        "{css-framework}": "{w20-material}"
       }
     },
     "paths": {
