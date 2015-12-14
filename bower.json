@@ -16,7 +16,7 @@
     "test-main.js"
   ],
   "dependencies": {
-    "angular-material": "^0.11.4",
+    "angular-material": "^1.0",
     "font-awesome": "4.3.0",
     "w20": "~2.1"
   },
