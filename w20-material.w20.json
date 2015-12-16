@@ -11,6 +11,10 @@
         "type": "object",
         "additionalProperties": false
       }
+    },
+    "style": {
+      "path": "[css]!{angular-material}/angular-material.css",
+      "autoload": true
     }
   },
   "requireConfig": {
