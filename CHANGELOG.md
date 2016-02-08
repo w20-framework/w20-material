@@ -1,3 +1,7 @@
+# Version 2.1.4 (2016-02-08)
+
+* [fix] Add `~1.4.8` resolution for `angular` package to make bower favor w20 requirement
+
 # Version 2.1.3 (2016-01-21)
 
 * [chg] Update bower.json to accept latest minor versions of dependencies (^).
