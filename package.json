@@ -1,6 +1,6 @@
 {
   "name": "w20",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "W20 add-on integration Google Material Design CSS framework through angular-material",
   "license": "MPL 2.0",
   "devDependencies": {
