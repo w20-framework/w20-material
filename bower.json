@@ -16,11 +16,14 @@
     "test-main.js"
   ],
   "dependencies": {
-    "angular-material": "~1.0.6",
+   "angular-material": "~1.0.6",
     "font-awesome": "~4.5.0",
     "w20": "#master"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.8"
-  }
+  },
+  "resolutions": {
+    "angular": "~1.4.8"
+   }
 }
