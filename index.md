@@ -2,9 +2,9 @@
 title: "Basics"
 name: "W20 material"
 repo: "https://github.com/seedstack/w20-material"
-author: "SeedStack"
-description: "Provides support for Angular Material framework"
-min-version: "15.11+"
+date: 2016-02-08
+author: Kavi RAMYEAD
+description: "Provides support for Angular Material framework."
 frontend: "responsive"
 weight: -1
 tags:
