@@ -13,7 +13,6 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         clean: [
-            'bower_components/**',
             'docs/**',
             'dist/**',
             'coverage/**'
@@ -21,29 +20,6 @@ module.exports = function (grunt) {
         jshint: {
             material: {
                 src: ['modules/**/*.js']
-            }
-        },
-        bower: {
-            install: {
-                options: {
-                    copy: false
-                }
-            }
-        },
-        karma: {
-            test: {
-                configFile: 'karma.conf.js',
-                singleRun: true
-            },
-            watch: {
-                configFile: 'karma.conf.js',
-                autoWatch: true
-            }
-        },
-        coveralls: {
-            src: ['coverage/lcov.info'],
-            options: {
-                force: true
             }
         },
         ngdocs: {
@@ -69,12 +45,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-ngdocs');
-    grunt.loadNpmTasks('grunt-karma');
-    grunt.loadNpmTasks('grunt-coveralls');
-    grunt.loadNpmTasks('grunt-bower-task');
     grunt.loadNpmTasks('grunt-contrib-connect');
 
     grunt.registerTask('docs', ['ngdocs', 'connect:docs']);
 
-    grunt.registerTask('default', ['jshint', 'bower', 'ngdocs']);
+    grunt.registerTask('default', ['jshint', 'ngdocs']);
 };
