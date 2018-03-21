@@ -1,8 +1,9 @@
 {
-  "name": "w20-material",
-  "version": "2.2.0-rc.3",
-  "description": "W20 add-on integration Google Material Design CSS framework through angular-material",
-  "license": "MPL 2.0",
+  "name": "@w20/w20-material",
+  "version": "2.2.0",
+  "description": "W20 add-on for angular-material",
+  "license": "MPL-2.0",
+  "main": "gruntfile.js",
   "devDependencies": {
     "grunt": "~0.4",
     "grunt-contrib-clean": "~0.6",
@@ -23,11 +24,21 @@
     "requirejs": "~2.1"
   },
   "dependencies": {
-    "w20": "~2.4.0-rc",
-    "angular-animate": "^1.6.6",
-    "angular-aria":"^1.6.6",
-    "angular-messages": "^1.4.8",
-    "angular-material": "^1.1.5",
+    "@w20/w20": "^2.4.0",
+    "angular-animate": "^1.6.9",
+    "angular-aria": "^1.6.9",
+    "angular-messages": "^1.6.9",
+    "angular-material": "^1.1.7",
     "font-awesome": "^4.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w20-framework/w20-material.git"
+  },
+  "author": "W20 team",
+  "contributors": [
+    "Adrien LAUER <adrien.lauer@mpsa.com>",
+    "Kavi RAMYEAD <kavi.ramyead@ext.mpsa.com>",
+    "Jose Manuel MARTINEZ LAINEZ <josemanuel.martinez1@ext.mpsa.com>"
+  ]
 }
